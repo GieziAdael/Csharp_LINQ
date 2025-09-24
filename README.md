@@ -1,6 +1,4 @@
-# Crear un archivo README.txt con el contenido generado
-
-readme_text = """# Prácticas de LINQ en C#
+## Prácticas de LINQ en C#
 
 Este proyecto es un **estudio práctico de LINQ** (Language Integrated Query) en C#.  
 Su objetivo es demostrar el uso de distintas operaciones de consulta y manipulación de datos a través de colecciones en memoria.
@@ -135,9 +133,3 @@ Autor: Práctica personal de estudio sobre LINQ en C#.
 Propósito: Aprender y reforzar el uso de consultas LINQ en colecciones en memoria.
 """
 
-# Guardar el archivo
-ruta_archivo = "/mnt/data/README_LINQ.txt"
-with open(ruta_archivo, "w", encoding="utf-8") as f:
-    f.write(readme_text)
-
-ruta_archivo
